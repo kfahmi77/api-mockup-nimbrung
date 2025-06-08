@@ -1,0 +1,42 @@
+{
+    "success": true,
+    "message": "Reading retrieved successfully",
+    "status_code": 200,
+    "data": [
+        {
+            "id": 1,
+            "title": "Judul Artikel Pertama",
+            "content": "Konten artikel yang lebih deskriptif dan informatif",
+            "category": {
+                "id": 1,
+                "name": "Sastra"
+            },
+            "author": {
+                "id": 1,
+                "name": "Admin User"
+            },
+            "cover_image_url": "https://example.com/images/article-1-cover.jpg",
+            "reference": "Referensi yang valid dan lengkap"
+        },
+        {
+            "id": 2,
+            "title": "Judul Artikel Kedua",
+            "content": "Konten artikel yang berbeda dan unik",
+            "category": {
+                "id": 2,
+                "name": "Teknologi"
+            },
+            "author": {
+                "id": 2,
+                "name": "Tech Writer"
+            },
+            "cover_image_url": "https://example.com/images/article-2-cover.jpg",
+            "reference": "Sumber referensi teknologi terpercaya"
+        }
+    ],
+    "error": null,
+    "meta": {
+        "timestamp": "2025-06-05T04:06:49Z",
+        "request_id": "req-416cda1b-d96a-4889-a6b3-677ff70591d5"
+    }
+}
